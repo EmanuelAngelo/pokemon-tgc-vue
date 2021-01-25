@@ -210,6 +210,10 @@ audio {
     transform-style: preserve-3d;
     transition: transform 0.2s;
 
+    &:hover {
+      cursor: url('../assets/mouse-hover.png'), auto;
+    }
+
     .card {
       transition: transform 0.6s;
       -webkit-backface-visibility: hidden;
